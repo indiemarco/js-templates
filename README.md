@@ -12,4 +12,4 @@
 
 `npx degit github:indiemarco/js-templates/esmon-ts my-app`
 
-`npx degit github:indiemarco/js-templates/react-vite my-app`
+`npx degit github:indiemarco/js-templates/vite-react my-app`
