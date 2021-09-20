@@ -1,0 +1,16 @@
+{
+  "name": "esmon-ts",
+  "scripts": {
+    "start": "esmon src/main.ts",
+    "build": "esmon build src/main.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^16.9.1",
+    "@typescript-eslint/eslint-plugin": "^4.31.0",
+    "@typescript-eslint/parser": "^4.31.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "esmon": "^1.1.0",
+    "typescript": "^4.4.3"
+  }
+}
