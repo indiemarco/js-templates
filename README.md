@@ -13,3 +13,5 @@
 `pnpx degit github:indiemarco/js-templates/esmon-ts my-app`
 
 `pnpx degit github:indiemarco/js-templates/vite-react my-app`
+
+`pnpx degit github:indiemarco/js-templates/lib my-lib`
