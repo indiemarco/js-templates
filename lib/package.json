@@ -1,5 +1,6 @@
 {
   "name": "esmon-ts",
+  "version": "0.1.0",
   "scripts": {
     "start": "esmon src/main.ts",
     "build": "esbuild src/main.ts --bundle --minify --sourcemap --platform=node --outfile=dist/main.js",
