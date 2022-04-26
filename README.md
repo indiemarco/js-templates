@@ -15,3 +15,7 @@
 `pnpx degit github:indiemarco/js-templates/vite-react my-app`
 
 `pnpx degit github:indiemarco/js-templates/lib my-lib`
+
+# new structure!
+
+`pnpx degit github:indiemarco/js-templates/backend-base my-app`
