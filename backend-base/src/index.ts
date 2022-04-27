@@ -1,7 +1,9 @@
 import {sum} from 'src/sum';
+import {Logger} from 'tslog';
+new Logger({name: 'console', overwriteConsole: true});
 
 async function main() {
-  console.log(sum(1, 2));
+  console.info(sum(1, 2));
 }
 
 main();
