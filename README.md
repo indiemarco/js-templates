@@ -19,3 +19,5 @@
 # new structure!
 
 `pnpx degit github:indiemarco/js-templates/backend-base my-app`
+
+`pnpx degit github:indiemarco/js-templates/fastify my-app`
