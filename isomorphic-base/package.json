@@ -1,0 +1,31 @@
+{
+  "name": "isomorphic",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "dev": "esmon src/index.ts",
+    "build": "tsup src/index.ts --dts --format cjs,esm"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.35",
+    "@typescript-eslint/eslint-plugin": "^5.26.0",
+    "@typescript-eslint/parser": "^5.26.0",
+    "esbuild": "^0.14.40",
+    "eslint": "^8.16.0",
+    "eslint-config-prettier": "^8.5.0",
+    "esmon": "^2.0.1",
+    "tsup": "^6.0.1",
+    "typescript": "^4.7.2"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}

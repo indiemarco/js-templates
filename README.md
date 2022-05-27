@@ -21,3 +21,5 @@
 `pnpx degit github:indiemarco/js-templates/backend-base my-app`
 
 `pnpx degit github:indiemarco/js-templates/fastify my-app`
+
+`pnpx degit github:indiemarco/js-templates/isomorphic-base my-app`
